@@ -1,0 +1,404 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+  #header-area .play-tools a {
+    margin: 0 25px 0 0;
+  }
+
+  #explain-best .featured-text p,
+  #watch-app .featured-text p {
+    width: 75%;
+  }
+
+}
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+#header-area .welcome-text {
+  margin-top: 0px;
+}
+
+#header-area .welcome-text h2 {
+  font-size: 34px;
+}
+
+#header-area .play-tools a {
+  display: inline;
+  margin: 0 10px 0 0;
+  width: 100%;
+}
+
+.play-tools img {
+  width: 40%;
+}
+
+
+.preview-iphone {
+  height: 405px;
+}
+
+.preview-iphone:after {
+  background-size: 193px auto;
+}
+
+.preview-iphone:before {
+  background-size: 195px auto;
+}
+
+/**/
+
+.iphone-three img {
+  margin-top: 139px;
+  width: 236px;
+}
+
+#explain-best .explain-heading {
+  margin-bottom: 30px;
+  margin-top: 45px;
+}
+
+#explain-best .featured-text p {
+  margin-bottom: 45px;
+  width: 75%;
+}
+
+#explain-best .iphone-three {
+  margin-top: 30px;
+  display: block;
+}
+
+#explain-best .iphone-six {
+  display: none;
+}
+
+/**/
+
+#watch-app .watch-heading {
+  margin-bottom: 30px;
+  margin-top: 45px;
+}
+
+#watch-app .watch-heading h2 {
+  font-size: 25px;
+}
+
+#watch-app .featured-text p {
+  margin-bottom: 30px;
+  width: 75%;
+}
+
+#watch-app .iphone-four {
+  margin-top: 86px;
+}
+
+#watch-app .iphone-four img {
+  width: 273px;
+}
+
+
+/**/
+
+.header-section {
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+#packages-pricing .single-package-heading h3 {
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+#packages-pricing .single-package-button {
+  margin-bottom: 30px;
+  padding: 15px 0;
+}
+
+#packages-pricing .single-package-details ul {
+  padding: 0 5px;
+}
+
+.total-footer-icon .col-md-3 {
+  display: inline-block;
+}
+
+
+
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+
+
+	.navbar-toggle {float: left;margin: 0;border: 1px solid #fff;} /*it will belong quick start forever start*/
+	.navbar-toggle .icon-bar {background: none repeat scroll 0 0 #fff;}
+	.main_menu.mobile_menu_active ul.nav.navbar-nav li {background: none repeat scroll 0 0 #000;
+		border-radius: 4px;
+		display: block;
+		margin-bottom: 2px;
+		text-align: center;}
+	.main_menu.mobile_menu_active ul.nav.navbar-nav li a {padding: 15px;}
+	.main_menu.mobile_menu_active .navbar-collapse {box-shadow: 0 0 0;}
+	.navbar-header {left: 0;position: absolute;top: -45px;} /*it will belong quick start forever end*/
+
+
+/**/
+.logo img {
+  display: block;
+  margin: auto;
+}
+
+#header-area .welcome-text {
+  margin-bottom: 40px;
+  margin-top: 35px;
+}
+
+#header-area .welcome-text h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#header-area .welcome-text p {
+  text-align: center;
+}
+
+#header-area .play-tools {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+#header-area .play-tools a {
+  margin: 0;
+}
+
+.play-tools img {
+  margin-bottom: 18px;
+}
+
+.preview-iphone {
+  height: 350px;
+}
+
+.preview-iphone:after {
+  background-size: 148px auto;
+  left: 18px;
+}
+
+.preview-iphone:before {
+  background-size: 150px auto;
+  left: 42%;
+}
+
+/**/
+
+.header-section {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.header-section h2 {
+  font-size: 26px;
+}
+
+#choose-us .header-menu {
+  margin-bottom: 30px;
+}
+
+
+/**/
+/**/
+
+#explain-best .iphone-three {
+  display: none;
+}
+
+#explain-best .iphone-six {
+  margin-top: 40px;
+  display: block;
+}
+
+#explain-best .iphone-three img {
+  margin-left: 55px;
+  width: 180px;
+}
+
+#explain-best .iphone-six img {
+  display: block;
+  margin: auto;
+  width: 185px;
+}
+
+#explain-best .explain-heading {
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+
+#explain-best .explain-heading h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+#explain-best .featured-text img,
+#watch-app .featured-text img {
+  padding-right: 3%;
+  width: 25%;
+}
+
+#explain-best .featured-text p,
+#watch-app .featured-text p {
+  margin-bottom: 30px;
+  width: 75%;
+}
+
+/**/
+
+#watch-app .watch-heading {
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+
+#watch-app .watch-heading h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+#watch-app .iphone-four img {
+  display: block;
+  margin: auto;
+  width: 180px;
+}
+
+/**/
+
+#screen-short .screen-header {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/**/
+.single-package-wraper {
+  display: block;
+  margin: auto;
+  width: 240px;
+}
+
+#packages-pricing .single-package-heading h3 {
+  font-size: 20px;
+  padding: 18px 0;
+}
+
+#packages-pricing .single-package-button {
+  margin-bottom: 40px;
+  padding: 10px 0;
+}
+
+#packages-pricing .single-package-button button {
+  padding: 10px 20px;
+}
+
+/**/
+
+#footer-section .footer-header {
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+
+#footer-section .footer-header h2 {
+  margin-bottom: 20px;
+  font-size: 38px;
+}
+
+#footer-section .footer-header p {
+  font-size: 17px;
+  line-height: 28px;
+  padding: 0;
+}
+
+#footer-section .footer-icon {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.footer-icon a {
+  margin-left: 0;
+}
+
+.footer-icon img {
+  width: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+/**/
+.preview-iphone::before {
+  left: 45%;
+}
+
+.preview-iphone::after {
+  left: 94px;
+}
+
+
+/**/
+
+#choose-us .header-menu img {
+  width: 22%;
+}
+
+.header-menu p {
+  width: 78%;
+}
+
+/**/
+
+#explain-best .featured-text img,
+#watch-app .featured-text img {
+  padding-right: 3%;
+  width: 20%;
+}
+
+/**/
+
+#explain-best .featured-text p, 
+#watch-app .featured-text p {
+  width: 80%;
+}
+
+
+
+
+
+
+
+
+
+}

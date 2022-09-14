@@ -1,0 +1,427 @@
+/* Base CSS Start */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fix { overflow: hidden }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif!important;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 14px:;
+}
+a {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #333;
+}
+a:hover { text-decoration: none }
+
+/*bootstrap css*/
+
+/* Import Google Font */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300,400italic,600);
+/* Base CSS End */
+
+.parallax_bg {
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/*-- #header-area --*/
+#header-area.header-bg {
+  background: rgba(0, 0, 0, 0) url("../img/welcome/bg.jpg") repeat fixed center center / cover ;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+#header-area.header-bg:after {
+  background: #ff6600;
+  content: "";
+  height: 100%;
+  width: 100%;
+  right: 0;
+  top: 0;
+  position: absolute;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+#header-area .logo {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#header-area .welcome-text {
+  margin-top: 120px;
+  margin-bottom: 85px;
+}
+
+#header-area .welcome-text h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#header-area .welcome-text p {
+  color: #fff;
+  font-size: 16px;
+}
+
+#header-area .play-tools {
+  margin-bottom: 150px;
+}
+
+#header-area .play-tools a {
+  margin: 0 50px 0 0;
+}
+
+.preview-iphone {
+  position: relative;
+  z-index: 11;
+  height: 535px;
+}
+
+.preview-iphone:after {
+  background-image: url("../img/welcome/iphone-one.png");
+  background-repeat: no-repeat;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 111;
+}
+
+.preview-iphone:before {
+  background-image: url("../img/welcome/iphone-two.png");
+  background-repeat: no-repeat;
+  content: "";
+  height: 100%;
+  left: 30%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1111;
+  }
+
+
+
+/*-- #choose-us --*/
+.header-section {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.header-section h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#choose-us .header-menu {
+  margin-bottom: 70px;
+}
+
+#choose-us .header-menu img {
+  float: left;
+  padding: 0 20px 0 0;
+  width: 30%;
+}
+
+#choose-us .header-menu h3 {
+  text-transform: capitalize;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.header-menu p {
+  width: 70%;
+  float: right;
+}
+
+
+
+/*-- #explain-best --*/
+#explain-best.explain-bg {
+  background: #333333;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+#explain-best .iphone-three {
+  display: block;
+  margin-top: 90px;
+}
+
+#explain-best .iphone-six {
+  display: none;
+}
+
+#explain-best .explain-heading {
+  margin-top: 125px;
+  margin-bottom: 60px;
+}
+
+#explain-best .explain-heading h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#explain-best .featured-text {
+  margin-bottom: 30px;
+}
+
+#explain-best .featured-text img {
+  float: left;
+  padding-right: 5%;
+  width: inherit;
+}
+
+#explain-best .featured-text p {
+  color: #fff;
+  float: right;
+  margin-top: 1%;
+  width: 83%;
+}
+
+
+
+
+/*-- #watch-app --*/
+
+#watch-app.watch-bg {
+  overflow: hidden;
+}
+
+#watch-app .watch-heading {
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+
+
+#watch-app .watch-heading h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#watch-app .featured-text {
+  margin-bottom: 30px;
+}
+
+#watch-app .featured-text img {
+  float: left;
+  padding-right: 5%;
+  width: inherit;
+}
+
+#watch-app .featured-text p {
+  color: #666666;
+  float: right;
+  margin-top: 1%;
+  width: 83%;
+}
+
+
+#watch-app .iphone-four img {
+  margin-top: 104px;
+}
+
+
+/**/
+
+#screen-short.screen-bg {
+  background: #333333 none repeat scroll center center / cover ;
+  overflow: hidden;
+  padding-bottom: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+#screen-short .screen-header {
+  color: #fff;
+  margin: 60px 0;
+  text-transform: uppercase;
+}
+
+#screen-short .screen-header h2 {
+  font-weight: 600;
+}
+
+#screen-short .all-screen  img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*.owl-controls .owl-page, .owl-controls .owl-buttons div {
+  cursor: pointer;
+  text-align: center;
+} 304 336*/ 
+
+
+
+/*
+*   Owl Carousel Owl Demo Theme 
+* v1.23
+*/
+
+.owl-controls{
+  margin-top: 35px;
+  text-align: center;
+}
+
+/* Styling Pagination*/
+
+.owl-controls .owl-page{
+  display: inline-block;
+  zoom: 1;
+  *display: inline;/*IE7 life-saver */
+}
+.owl-controls .owl-page span{
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin: 5px 7px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.owl-controls .owl-page.active span,
+.owl-controls.clickable .owl-page:hover span{
+  background: #ff6600;
+}
+
+
+/*-- #packages-pricing --*/
+.single-package-heading {
+  background: #999999 none repeat scroll 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+#packages-pricing .single-package-heading h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding: 30px 0;
+  text-transform: uppercase;
+}
+
+.single-package-button {
+  background: #999999 none repeat scroll 0 0;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 60px;
+  padding: 20px 0;
+}
+
+#packages-pricing .single-package-details {
+  background: #F7F7F7;
+  overflow: hidden;
+}
+
+#packages-pricing .single-package-details ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+#packages-pricing .single-package-details ul li:first-of-type {margin-top: 15px;}
+#packages-pricing .single-package-details ul li:last-of-type {margin-bottom: 15px;}
+
+.single-package-details p {
+  line-height: 35px;
+  margin-bottom: 0;
+}
+
+#packages-pricing .single-package-details span {
+  font-weight: bold;
+}
+
+#packages-pricing .single-package-button button {
+  background: #333333 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+.single-package-wraper.active .single-package-heading,
+.single-package-wraper.active .single-package-button {
+  background: #ff6600 none repeat scroll 0 0;
+}
+
+
+
+
+/*-- #footer-section --*/
+#footer-section.footer-bg {
+  background: #ff6600;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+#footer-section .footer-header {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#footer-section .footer-header h2 {
+  color: #fff;
+  font-size: 44px;
+  margin-bottom: 40px;
+}
+
+#footer-section .footer-header p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 0 30px;
+}
+
+#footer-section .footer-icon {
+  margin-bottom: 60px;
+}
